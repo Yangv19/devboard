@@ -29,7 +29,7 @@ const Landing = ({ isAuthenticated } : PropsFromRedux) : JSX.Element => {
                         <Alert/>
                         <h1 className="x-large">Developer Board</h1>
                         <p className="lead">
-                            Start sharing issues, having discussions, and working collaboratively now
+                            Start sharing issues, having discussions, and working collaboratively
                         </p>
                         {!isAuthenticated && guestLinks}
                     </div>
